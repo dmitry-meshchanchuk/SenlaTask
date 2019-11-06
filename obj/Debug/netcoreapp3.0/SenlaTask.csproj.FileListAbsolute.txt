@@ -1,0 +1,11 @@
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\bin\Debug\netcoreapp3.0\SenlaTask.exe
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\bin\Debug\netcoreapp3.0\SenlaTask.deps.json
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\bin\Debug\netcoreapp3.0\SenlaTask.runtimeconfig.json
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\bin\Debug\netcoreapp3.0\SenlaTask.runtimeconfig.dev.json
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\bin\Debug\netcoreapp3.0\SenlaTask.dll
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\bin\Debug\netcoreapp3.0\SenlaTask.pdb
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\obj\Debug\netcoreapp3.0\SenlaTask.csprojAssemblyReference.cache
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\obj\Debug\netcoreapp3.0\SenlaTask.AssemblyInfoInputs.cache
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\obj\Debug\netcoreapp3.0\SenlaTask.AssemblyInfo.cs
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\obj\Debug\netcoreapp3.0\SenlaTask.dll
+D:\Программирование\SenlaTask\!!!SenlaTask\SenlaTask\obj\Debug\netcoreapp3.0\SenlaTask.pdb
