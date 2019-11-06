@@ -53,6 +53,34 @@ namespace SenlaTask
             Console.WriteLine();
         }
     }
+    class Task4
+    {
+        private static int NOD(int n1, int n2)
+        {
+            int n = n1 % n2;
+            n1 = n2;
+            n2 = n;
+            if (n > 0)
+                return NOD(n1, n2);
+            else
+                return n1;
+        }
+        private static int NOK(int n1, int n2)
+        {
+            return n1 * n2 / NOD(n1, n2);
+        }
+        public void SolutionTask4()
+        {
+            int n1;
+            int n2;
+            Console.WriteLine("Введите первое число");
+            n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите второе число");
+            n2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("NOD: " + NOD(n1, n2).ToString());
+            Console.WriteLine("NOK: " + NOK(n1, n2).ToString());
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -64,6 +92,10 @@ namespace SenlaTask
             Console.WriteLine("Task2");
             Task2 n2 = new Task2();
             n2.SolutionTask2();
+
+            Console.WriteLine("Task4");
+            Task4 n4 = new Task4();
+            n4.SolutionTask4();
         }
     }
 }
