@@ -81,6 +81,32 @@ namespace SenlaTask
             Console.WriteLine("NOK: " + NOK(n1, n2).ToString());
         }
     }
+    class Task5
+    {
+        public static string Reverse(string str)
+        {
+            char[] arr = str.ToCharArray();
+            Array.Reverse(arr);
+            return new string(arr);
+        }
+        public static string Palindrome(string input)
+        {
+            string reverseInput = Reverse(input);
+            if (Equals(input, reverseInput))
+                return "Палиндром";
+            else
+                return "Не палиндром";
+        }
+        public void SolutionTask5()
+        {
+            Console.WriteLine("Введите строку");
+            string input = Console.ReadLine();
+
+
+            Console.WriteLine(input + " - " + Palindrome(input));
+            Console.WriteLine();
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -96,6 +122,10 @@ namespace SenlaTask
             Console.WriteLine("Task4");
             Task4 n4 = new Task4();
             n4.SolutionTask4();
+
+            Console.WriteLine("Task5");
+            Task5 n5 = new Task5();
+            n5.SolutionTask5();
         }
     }
 }
