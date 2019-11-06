@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace SenlaTask
 {
@@ -107,6 +108,22 @@ namespace SenlaTask
             Console.WriteLine();
         }
     }
+    class Task6
+    {
+
+        public static string DeleteNumbers(string input)
+        {
+            return Regex.Replace(input, "[0-9]", "", RegexOptions.IgnoreCase);
+
+        }
+        public void SolutionTask6()
+        {
+            Console.WriteLine("Введите строку");
+            string input = Console.ReadLine();
+            Console.WriteLine(DeleteNumbers(input));
+            Console.WriteLine();
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -126,6 +143,10 @@ namespace SenlaTask
             Console.WriteLine("Task5");
             Task5 n5 = new Task5();
             n5.SolutionTask5();
+
+            Console.WriteLine("Task6");
+            Task6 n6 = new Task6();
+            n6.SolutionTask6();
         }
     }
 }
